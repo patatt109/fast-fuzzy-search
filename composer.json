@@ -1,5 +1,6 @@
 {
     "name": "mihanentalpo/fast-fuzzy-search",
+    "homepage": "https://github.com/MihanEntalpo/FastFuzzySearch",
     "type": "library",
     "description": "Fast fuzzy search in an array of strings for the most similiar ones",
     "keywords": ["search", "compare", "fuzzy"],
@@ -13,11 +14,12 @@
     ],
     "license": "MIT",
     "require": {
-        "php": "^5.3.5 || ^7.0"
+        "php": "^5.3.5 || ^7.0 || ^8.0"
     },
     "autoload": {
         "psr-4":{
             "Mihanentalpo\\FastFuzzySearch\\": "src/"
         }
-    }
+    },
+    "minimum-stability": "dev"
 }
